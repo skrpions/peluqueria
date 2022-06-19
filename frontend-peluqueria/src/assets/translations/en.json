@@ -1,0 +1,16 @@
+{
+    "label.example": "example",
+    "label.app": "Art & Style Hairdressing",
+    "label.login": "Login",
+    "label.logout": "Logout",
+    "label.register": "Register",
+    "label.date": "Date",
+    "label.name": "Name",
+    "label.services": "Services",
+    "label.add-booking": "Add Booking",
+    "haircut": "Haircut",
+    "hair-coloring": "Hair coloring",
+    "hair-washing": "Hair washing",
+    "hair-straightening": "Hair straightening"
+
+}

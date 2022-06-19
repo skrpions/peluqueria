@@ -1,0 +1,15 @@
+{
+    "label.example": "ejemplo",
+    "label.app": "Arte & Estilo Peluquería",
+    "label.login": "Ingresar",
+    "label.logout": "Salir",
+    "label.register": "Registrar",
+    "label.date": "Fecha",
+    "label.name": "Nombre",
+    "label.services":"Servicios",
+    "label.add-booking": "Añadir reserva",
+    "haircut": "Corte de cabello",
+    "hair-coloring": "Coloración de cabello",
+    "hair-washing": "Lavado de cabello",
+    "hair-straightening": "Alisado de cabello"
+}

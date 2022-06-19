@@ -1,0 +1,68 @@
+<div class="row" id="add-booking">
+    <div class="clo-12">
+
+        <form action="">
+
+            <!-- Nombre -->
+            <div class="row form-group">
+                <div class="col-12" mt-4>
+                    
+                    <mat-form-field appearance="outline">
+                        <mat-label>{{'label.name' | translate}}</mat-label>
+                        <input matInput type="text">
+                        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                    </mat-form-field>
+
+                </div>
+                
+            </div>
+            
+            <!-- Calendario -->
+            <div class="row form-group">
+                <div class="col-12 mt-2">
+
+                    <p-calendar
+                    placeholder="{{'label.date' | translate}}"
+                    [locale]="locale" 
+                    dateFormat="dd/mm/yy" 
+                    [showTime]="true" 
+                    [showSeconds]="true"
+                    [stepMinute]="30"
+                    [readonlyInput]="true"
+                    inputStyleClass="form-control"
+                    name="date"
+                    id="date"
+                    ></p-calendar>
+
+                </div>
+            </div>
+
+            <!-- Servicios -->
+            <div class="row form-group">
+                <div class="col-12" mt-2>
+ 
+                    <mat-form-field appearance="outline">
+                        <mat-label for="services">{{'label.services' | translate}}</mat-label>
+                        <mat-select class="custom-select" name="service" id="services">
+                        <mat-option *ngFor="let service of services; let first = first" [value]="service.value">
+                          {{service.viewValue | translate}}
+                        </mat-option>
+                      </mat-select>
+                    </mat-form-field>
+
+                </div>
+            </div>
+
+            <!-- Botón -->
+            <div class="row form-group">
+                <div class="col-12 mt-2">
+                    <button mat-raised-button color="primary">{{'label.add-booking' | translate}}</button>
+                </div>
+            </div>
+
+
+
+        </form>
+
+    </div>
+</div>

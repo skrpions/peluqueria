@@ -1,0 +1,21 @@
+#add-booking{
+    background: #fff;
+    padding: 10px;
+}
+
+mat-form-field {
+    width: 100%;
+  }
+
+p-calendar {
+}
+
+button {
+    width: 100%;
+}
+
+#add-booking p-calendar .form-control:disabled,
+#add-booking p-calendar .form-control[readonly] {
+    background-color: #fff;
+    width: 100% !important;
+}
